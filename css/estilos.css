@@ -9,13 +9,21 @@ span {
     background: rgba(255, 255, 255, 0); 
   }
   body {
-    background-image: url(https://images.ctfassets.net/izij9rskv5y1/4BWc7ePtCLZ2iiWD0KZLNn/b83d95100ed5cfe0a2783853fdb0608e/convert-usd-to-euro.jpeg);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-size: 15%;
+    
+    background: url(asd.webp) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: rgba(25, 0, 255, 0.788); 
     text-align: center;
     font-weight: 1000;
-    font-size: 200%;
+    font-size: 400%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+     
     font-display: initial;
+    
     padding: 15px;
     margin: 5%;
 
@@ -31,16 +39,31 @@ span {
   .header{
     background-color: #33ff0000;
     cursor: grab;
+
   }
-  .button {
-    background-color: #1100ffce;
+  .buttonwindows {
+    border-radius: 25px;
+    background-color: #0059ffce;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 50%;
     margin: 4px 2px;
     cursor: copy;
+}
+.buttonandroid {
+  border-radius: 25px;
+  background-color: #ff0000ce;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50%;
+  margin: 4px 2px;
+  cursor: copy;
 }

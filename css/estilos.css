@@ -51,7 +51,7 @@ span {
     display: inline-block;
     font-size: 50%;
     margin: 4px 2px;
-    cursor: copy;
+    cursor: default;
 }
 .buttonandroid {
   border-radius: 25px;
@@ -64,5 +64,5 @@ span {
   display: inline-block;
   font-size: 50%;
   margin: 4px 2px;
-  cursor: copy;
+  cursor: default;
 }
